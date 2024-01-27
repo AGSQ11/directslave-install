@@ -1,8 +1,9 @@
 #!/bin/sh
 # @author jordavin,phillcoxon,mantas15
 # @updated by Afrizal-id
-# @date 07.12.2019
-# @version 1.0.5
+# @updated later by osmanboy / ericosman @forum.directadmin.com
+# @date 27.01.2024
+# @version 1.0.6
 # @source 
 # ------------------------------------------------------------------------------
 sshport=22;
@@ -62,8 +63,8 @@ systemctl restart sshd  >> /root/install.log
 
 echo "installing and configuring directslave"
 cd ~
-wget -q https://directslave.com/download/directslave-3.4.2-advanced-all.tar.gz >> /root/install.log
-tar -xf directslave-3.4.2-advanced-all.tar.gz
+wget -q https://directslave.com/download/directslave-3.4.3-advanced-all.tar.gz >> /root/install.log
+tar -xf directslave-3.4.3-advanced-all.tar.gz
 mv directslave /usr/local/
 cd /usr/local/directslave/bin
 mv directslave-linux-amd64 directslave
