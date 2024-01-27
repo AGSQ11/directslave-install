@@ -11,6 +11,7 @@ Running DirectSlave as secondary DNS Cluster for DirectAdmin control panel
 
 # Installing
 Run command:
+<br> wget https://raw.githubusercontent.com/osmanboy/directslave-install/master/directslave-install.sh
 <br>chmod +x directslave-install.sh
 <br>./directslave-install.sh (user) (passwd) (IP server DirectAdmin)
 <br>for customize DirectAdmin port, please use :
