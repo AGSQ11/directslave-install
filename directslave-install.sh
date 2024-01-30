@@ -69,9 +69,6 @@ mv directslave /usr/local/
 cd /usr/local/directslave/bin
 mv directslave-linux-amd64 directslave
 cd /usr/local/directslave/
-wget -q https://github.com/osmanboy/directslave-install/raw/master/directslave-3.2-login-XSS-HOTFIX.tar.gz
-tar -xf directslave-3.2-login-XSS-HOTFIX.tar.gz
-cd /usr/local/directslave
 chown named:named -R /usr/local/directslave
 
 curip="$( hostname -I|awk '{print $1}' )"
